@@ -23,7 +23,8 @@ Released   : 20140330
 <!--[if IE 6]><link href="default_ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
 
 </head>
-<body>
+<body onload=' myFunction(0)'>
+
 <div id="header-wrapper">
 	<div id="banner" class="container">
 		<div class="title">
@@ -37,65 +38,44 @@ Released   : 20140330
 	<div id="menu">
 		<ul>
 			<li><a href="index.html" accesskey="1" title="">Homepage</a></li>
-			<li class="active"><a href="class.html" accesskey="2" title="">Classes</a></li>
-			<li><a href="teacher.html" accesskey="3" title="">Teachers</a></li>
+			<li class="active"><a href="class.html" accesskey="2" title="">課程介紹</a></li>
+			<li><a href="teacher.html" accesskey="3" title="">師資陣容</a></li>
 			<li><a href="contact.html" accesskey="4" title="">Contact Us</a></li>	
 			<li class="active-b"><a href="class.html" accesskey="2" title="">我要報名</a></li>
 		</ul>
 	</div>
 </div>
 
-<div id="welcome">
-	<div class="container">
-		<div class="title">
-			<h2>兒童牙科再教育課程內容</h2>
-			<!-- <span class="byline">Donec leo, vivamus fermentum nibh in augue praesent a lacus at urna congue</span> 副標-->
-		</div>
-		<p>揮別了4年之後兒牙再教育課程又再次開課 ，一系列的演講內容：共14個講題，9個實作課程。 兒童牙科要怎麼做才會輕鬆、才會賺錢，
-		重要的是怎樣做才是對的方式 。 進階式的兒童牙科課程，涵蓋學理及臨床醫師需要的實作方法， 從基礎到進階深入淺出無論是一般牙科或
-		兒童牙科的醫師會有不同的領悟 。 <br><br> 
-
-		這次的講者除了袁淑華醫師之外，又加入了一位強打講師劉書傑醫師， 兩位醫師都是留美的資深兒童牙科醫師，並且都有美國執業的經驗， 
-		劉醫師更是長期旅居美國，執業於最頂尖的史丹佛大學社區長達20年， 讓劉醫師告訴我們，在美國是如何操作兒童牙科，他們的孩子為什麼沒
-		蛀牙、又愛看牙。同時讓袁醫師來告訴我們要如何用美國的看診方式，融入到台灣，讓我們追上美國的兒牙水準<br><br>
-		
-		另外今年課程加開了兒童美學、兒童矯正的部分，有許多長期追蹤的治療成果呈現， 歡迎舊雨新知，有興趣的醫師可以先打電話來詢問，開課
-		時間和費用，另有早鳥優惠喔！<br><br>
-		
-		</p>
-		
-	</div>
-</div>
-
 <div id="wrapper">
 	<div id="three-column" class="container">
-		<div class="title">
-			<h2>課程主題</h2>
-			<!-- <span class="byline">Donec leo, vivamus fermentum nibh in augue praesent a lacus at urna congue</span> -->
-		</div>
-		<div class="tbox1">
-			<p>講題一<br>
-			兒童牙科在美國是牙科的次專科中最夯的一個科別，他們重視預防、重視美觀
-			、重視孩子的感受， 醫師工作時也非常的輕鬆。他們是怎們做到的？<br><br>			
-			</p>
-			
-		</div>
-		<div class="tbox2">
-			<p>講題二<br>
-			乳牙該把拔還是不拔？拔了之後會有什麼後果？牙痛到底是做pulpotomy,
-			pulpectomy, or extraction?小小孩蛀牙不合作怎麼辦？
-			要先有計畫知道要怎麼做，做起來才會有效率?有計畫的進場和退場！
-			What to look at and what to do，when a patient walks in? Do it right and do
-			quick.
-			
-			
-			</p>
-			
-		</div>
+		
+		
 	</div>
 	
 	<div id="two-column" class="container">
-		<div class="tbox1">	
+		<div class="tbox3">
+			<button class="button-class" onclick="myFunction(0)">Try it0</button><br>
+			<button class="button-class" onclick="myFunction(1)">Try it1</button><br>
+			<button class="button-class" onclick="myFunction(2)">Try it2</button><br>
+		</div>
+		<div id="0" class="tbox4">
+			<div class="title">
+				<h2>課程主題</h2>
+				<!-- <span class="byline">Donec leo, vivamus fermentum nibh in augue praesent a lacus at urna congue</span> -->
+			</div>
+			<p>
+			在門診中治療兒童病患似乎是最不重要的，也是最不賺錢的。但是如果沒有這一點技能，
+			兒童病患會變成門診中最童頭頭痛的問題、最花時間、又最沒效率。有了技能看兒童，會
+			讓門診運作更有效率，也會帶來更多成人的病患（兒童的家人）。
+			</p>
+			
+		</div>
+		<div id="1" class="tbox4">	
+		
+			<p>講題一<br>
+			兒童牙科在美國是牙科的次專科中最夯的一個科別，他們重視預防、重視美觀
+			、重視孩子的感受， 醫師工作時也非常的輕鬆。他們是怎們做到的？<br><br>			
+			</p>			
 			<table>
 				<tr>
 					<td>8:30-900</td>		
@@ -127,7 +107,14 @@ Released   : 20140330
 				</tr>
 			</table> 
 		</div>
-		<div class="tbox2">
+		<div id="2" class="tbox4">
+			<p>講題二<br>
+			乳牙該把拔還是不拔？拔了之後會有什麼後果？牙痛到底是做pulpotomy,
+			pulpectomy, or extraction?小小孩蛀牙不合作怎麼辦？
+			要先有計畫知道要怎麼做，做起來才會有效率?有計畫的進場和退場！
+			What to look at and what to do，when a patient walks in? Do it right and do
+			quick.
+			</p>
 			<table>
 				<tr>
 					<td>8:30-9:00</td>		
@@ -167,6 +154,41 @@ Released   : 20140330
 				</tr>
 			</table> 			
 		</div>
+	</div>
+</div>
+
+
+<script>
+function myFunction(number) {
+	var i;
+	for(i = 0 ; i < 3 ; i++ )
+	{
+		document.getElementById(i).style.display = "none";
+    }
+	document.getElementById(number).style.display = "block";
+  
+}
+</script>
+
+<div id="welcome">
+	<div class="container">
+		<div class="title">
+			<h2>兒童牙科再教育課程內容</h2>
+			<!-- <span class="byline">Donec leo, vivamus fermentum nibh in augue praesent a lacus at urna congue</span> 副標-->
+		</div>
+		<p>揮別了4年之後兒牙再教育課程又再次開課 ，一系列的演講內容：共14個講題，9個實作課程。 兒童牙科要怎麼做才會輕鬆、才會賺錢，
+		重要的是怎樣做才是對的方式 。 進階式的兒童牙科課程，涵蓋學理及臨床醫師需要的實作方法， 從基礎到進階深入淺出無論是一般牙科或
+		兒童牙科的醫師會有不同的領悟 。 <br><br> 
+
+		這次的講者除了袁淑華醫師之外，又加入了一位強打講師劉書傑醫師， 兩位醫師都是留美的資深兒童牙科醫師，並且都有美國執業的經驗， 
+		劉醫師更是長期旅居美國，執業於最頂尖的史丹佛大學社區長達20年， 讓劉醫師告訴我們，在美國是如何操作兒童牙科，他們的孩子為什麼沒
+		蛀牙、又愛看牙。同時讓袁醫師來告訴我們要如何用美國的看診方式，融入到台灣，讓我們追上美國的兒牙水準<br><br>
+		
+		另外今年課程加開了兒童美學、兒童矯正的部分，有許多長期追蹤的治療成果呈現， 歡迎舊雨新知，有興趣的醫師可以先打電話來詢問，開課
+		時間和費用，另有早鳥優惠喔！<br><br>
+		
+		</p>
+		
 	</div>
 </div>
 

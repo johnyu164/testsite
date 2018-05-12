@@ -190,6 +190,20 @@
 		border-color: rgba(0,0,0,.8);
 		color: #FFF;
 	}
+	
+	.button-class 
+	{
+		background-color: #ffffff;
+		border: none;
+		color: #d87e00;
+		padding: 15px 32px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 18px;
+		margin: 4px 2px;
+		cursor: pointer;
+	}
 		
 /*********************************************************************************/
 /* 4-column                                                                      */
@@ -209,6 +223,7 @@
 	{
 		float: left;
 		margin-right: 20px;
+		
 	}
 	
 	.box4
@@ -243,21 +258,34 @@
 /* 2-column                                                                      */
 /*********************************************************************************/
 
-	.tbox1,
-	.tbox2
-	{
-		width: 575px;
-	}
-	
+
 	.tbox1
 	{
+		width: 50%;
 		float: left;
 	}
 
 	.tbox2
 	{
-		float: left;
+		pedding: 0em, 30em;
+		width: 50%;
+		float: right;
 	}
+
+	.tbox3
+	{
+		width: 20%;
+		float: left;
+		text-align: center;
+	}
+	.tbox4
+	{
+		pedding: 0em, 30em;
+		width: 70%;
+		float: right;
+		text-align: left;
+	}
+
 
 	
 /*********************************************************************************/
@@ -321,21 +349,6 @@
 		padding: 0em 0em;
 		background:#ffffff;
 		
-	}
-
-	/*********************************************************************************/
-/* Left side bar                                                                        */
-/*********************************************************************************/
-
-	#left-bar
-	{
-		width:120px;
-　		float:left;
-　		height:280px;
-　		text-align:center;
-　		line-height:280px;
-　		font-size:15px;
-　		background:#ff0202;
 	}
 
 
@@ -587,7 +600,7 @@
 
 	#two-column
 	{
-		text-align: left;
+		
 		color: rgba(0,0,0,0.6);
 	}
 
