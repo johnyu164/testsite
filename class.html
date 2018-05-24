@@ -57,6 +57,8 @@ Released   : 20140330
 			<button class="button-class" onclick="myFunction(0)">課程主題</button><br>
 			<button class="button-class" onclick="myFunction(1)">主題一</button><br>
 			<button class="button-class" onclick="myFunction(2)">講題二</button><br>
+			<button class="button-class" onclick="myFunction(3)">Preventive Orthodontic Treatment</button><br>
+
 		</div>
 		<div id="0" class="tbox4">
 			<div class="title">
@@ -154,6 +156,70 @@ Released   : 20140330
 				</tr>
 			</table> 			
 		</div>
+		<div id="3" class="tbox4" onload=' myFunctionin(0)'>
+			<p>Preventive Orthodontic Treatment<br>
+			
+			牙齒矯正和兒童牙科看似二個分開的課題，可是當孩子有出現咬合上的問題時， 
+			只有兒童牙科醫師才會在問題出現時立刻幫孩子做診斷，並且判斷是否要做早期治療。<br>
+			兒童牙科應該要有預防性矯正的概念，預防的意義在於不要讓咬合問題發生或是發現問題早期介入，
+			提供給一個比較良好的生長環境，讓恆牙萌發順利、顎骨生長良好，把大事化小、小事化無。<br>
+			要做預防性矯正，監視疾病的發生、預測問題即將發生、發現問題、及早期作診斷是最重要的環節。<br>
+			當診斷出問題，能夠預測這個問題將來造成的影響，尤其是生長發育方面的預測，如果可以預測出將來會產生的結果，
+			就可以準確判斷是否要早期介入。<br>
+			這個矯正課程有別於其他的早期矯正課程，將著重於預防，從發現問題、診斷、治療計劃、治療方法、治療介入年齡，
+			將一系列的講題分四次，除11個課題詳細解釋外，也加入hands on課程，可以讓你不但了解怎麼做，而且會自己上手。<br>
+
+			</p>
+			
+			<button class="button-class" onclick="myFunctionin(4)">1</button>
+			<button class="button-class" onclick="myFunctionin(5)">2</button>
+			<button class="button-class" onclick="myFunctionin(6)">3</button><br><br>
+			
+			
+			<div id="4" class="tbox4">
+			
+				講題一	
+					(1)	 Diagnosis and treatment plan
+					(2)	 Orthodontic tx for deciduous dentition
+					(3)	 Ectopic eruption (molar/incisor/canine)
+					Hands on: 
+					(1)	 Cephalometric tracing
+					(2)	 Clinical photo taken
+					(3)	 Bands try-in; Space maintainer fabrication
+				
+		
+			</div>
+			
+			<div id="5" class="tbox4">
+			
+				5	
+					(1)	 Diagnosis and treatment plan
+					(2)	 Orthodontic tx for deciduous dentition
+					(3)	 Ectopic eruption (molar/incisor/canine)
+					Hands on: 
+					(1)	 Cephalometric tracing
+					(2)	 Clinical photo taken
+					(3)	 Bands try-in; Space maintainer fabrication
+				
+		
+			</div>
+			<div id="6" class="tbox4">
+			
+				講6	
+					(1)	 Diagnosis and treatment plan
+					(2)	 Orthodontic tx for deciduous dentition
+					(3)	 Ectopic eruption (molar/incisor/canine)
+					Hands on: 
+					(1)	 Cephalometric tracing
+					(2)	 Clinical photo taken
+					(3)	 Bands try-in; Space maintainer fabrication
+				
+		
+			</div>
+
+			
+		
+		</div>
 	</div>
 </div>
 
@@ -161,9 +227,19 @@ Released   : 20140330
 <script>
 function myFunction(number) {
 	var i;
-	for(i = 0 ; i < 3 ; i++ )
-	{
+	for(i = 0 ; i < 4 ; i++ )
+	{	
 		document.getElementById(i).style.display = "none";
+    }
+	document.getElementById(number).style.display = "block";
+  
+}
+
+function myFunctionin(number) {
+	var j;
+	for(j = 4 ; j < 7 ; j++ )
+	{	
+		document.getElementById(j).style.display = "none";
     }
 	document.getElementById(number).style.display = "block";
   
